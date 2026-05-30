@@ -1,0 +1,78 @@
+/* Full page center */
+.contact-wrapper {
+  min-height: 100vh;
+  background: #0b0b0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.contact-card {
+  width: 380px;
+  background: linear-gradient(180deg, #0f172a, #020617);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(255, 0, 150, 0.15);
+}
+
+/* Title */
+.contact-title {
+  text-align: center;
+  color: #f472b6;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-group label {
+  color: #cbd5f5;
+  font-size: 13px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #fff;
+  outline: none;
+}
+
+.form-group textarea {
+  min-height: 90px;
+  resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #94a3b8;
+}
+
+/* Button */
+.send-btn {
+  margin-top: 10px;
+  background: linear-gradient(90deg, #ec4899, #db2777);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.6);
+}

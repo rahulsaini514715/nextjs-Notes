@@ -1,0 +1,6 @@
+Maan lo maine ek Navbar banaya hai jo mujhe Home page, Contact page aur Services page par dikhana hai,
+lekin About page par mujhe navbar nahi dikhana.
+
+Agar mai navbar ko Main Layout page me add karta hoon, to wo About page par bhi show ho jata hai, jo mai nahi chahta.
+
+Toh React me aisa kaise kar sakta hoon ki navbar sirf kuch specific pages par hi render ho aur baaki pages par nahi?
